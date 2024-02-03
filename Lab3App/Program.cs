@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Lab3App.Lab3App;
 
 namespace Lab3App
 {
@@ -29,7 +30,7 @@ namespace Lab3App
             possibleCollectiable.Add(new Axe("OnlyAxe"));
 
             // One MagicWand
-            possibleCollectiable.Add(new Axe("OnlyMagicWand"));
+            possibleCollectiable.Add(new MagicWand("OnlyMagicWand"));
 
             // Associate the CollectionBoard object to all the possible Collectiables
             // using a foreach loop
